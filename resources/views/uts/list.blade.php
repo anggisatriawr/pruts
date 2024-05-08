@@ -17,16 +17,18 @@
     </div>
     <div class="container">
         <div class="row">
+            @foreach ($mahasiswa as $key => $value)
             <div class="col">
                 <div class="card" style="width: 18rem;">
                     <div class="card-body">
-                      <h5 class="card-title">Muhammad Fauzi Nur Aziz</h5>
-                      <h6 class="card-subtitle mb-2 text-muted">22104410046</h6>
-                      <p class="card-text">Teknik Informatika</p>
-                      <p class="card-text">Semester 4</p>
+                      <h5 class="card-title">{{$value->nama_lengkap}}</h5>
+                      <h6 class="card-subtitle mb-2 text-muted">{{$value->nim}}</h6>
+                      <p class="card-text">{{$value->jurusan}}</p>
+                      <p class="card-text">Semester {{$value->semester}}</p>
                     </div>
                   </div>
-            </div>
+            </div>    
+            @endforeach
         </div>
     </div>
     {{-- JS Bootstrap --}}

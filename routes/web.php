@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\UTSController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -7,14 +8,7 @@ Route::get('/', function () {
 });
 
 
-Route::get('/uts', function () {
-    return view('uts.index');
-});
-
-Route::get('/uts/create', function () {
-    return view('uts.create');
-});
-
-Route::get('/uts/list', function () {
-    return view('uts.list');
-});
+Route::get('/uts', [UTSController::class, "index"]);
+Route::get('/uts/create', [UTSController::class, "create"]);
+Route::post('/uts/create', [UTSController::class, "store"]);
+Route::get('/uts/list', [UTSController::class, "list"]);
