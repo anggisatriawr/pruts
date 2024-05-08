@@ -18,16 +18,27 @@
     <div class="container">
         <div class="row">
             @foreach ($mahasiswa as $key => $value)
-            <div class="col">
-                <div class="card" style="width: 18rem;">
-                    <div class="card-body">
-                      <h5 class="card-title">{{$value->nama_lengkap}}</h5>
-                      <h6 class="card-subtitle mb-2 text-muted">{{$value->nim}}</h6>
-                      <p class="card-text">{{$value->jurusan}}</p>
-                      <p class="card-text">Semester {{$value->semester}}</p>
+                <div class="col">
+                    {{-- <div class="card" style="width: 18rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">{{ $value->nama_lengkap }}</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">{{ $value->nim }}</h6>
+                            <p class="card-text">{{ $value->jurusan }}</p>
+                            <p class="card-text">Semester {{ $value->semester }}</p>
+                        </div>
+                    </div> --}}
+                    <div class="card">
+                        <div class="card-header">
+                            Mahasiswa
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">{{ $value->nama_lengkap }}</h5>
+                            <p class="card-text">{{ $value->nim }}</p>
+                            <p class="card-text">{{ $value->jurusan }}</p>
+                            <p class="card-text">{{ $value->semester }}</p>
+                        </div>
                     </div>
-                  </div>
-            </div>    
+                </div>
             @endforeach
         </div>
     </div>
