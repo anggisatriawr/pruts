@@ -30,7 +30,7 @@
             <div class="col">
                 <div class="card" style="width: 18rem;">
                     <div class="card-body">
-                        <h5 class="card-title">Boby Hendrawan</h5>
+                        <h5 class="card-title">Bobby Hendrawan</h5>
                         <h6 class="card-subtitle mb-2 text-muted">22104410078</h6>
                         <p class="card-text">Teknik Informatika</p>
                         <p class="card-text">Semester 4</p>
