@@ -62,6 +62,6 @@ class UTSController extends Controller
             "semester" => $request->semester,
         ];
         $mahasiswa = json_decode(json_encode($mahasiswa));
-        return redirect('/uts/create')->with('pass-key', 'Data Mahasiswa Berhasil Disimpan')->with("mahasiswa", $mahasiswa);
+        return redirect('/uts/create')->with('pass-key', 'Data Mahasiswa Berhasil Disimpan')->with("mahasiswa", $mahasiswa);          
     }
 }

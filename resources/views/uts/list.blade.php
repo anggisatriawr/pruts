@@ -27,15 +27,15 @@
                             <p class="card-text">Semester {{ $value->semester }}</p>
                         </div>
                     </div> --}}
-                    <div class="card">
+                    <div class="card mb-2 mx-2">
                         <div class="card-header">
                             Mahasiswa
                         </div>
                         <div class="card-body">
                             <h5 class="card-title">{{ $value->nama_lengkap }}</h5>
                             <p class="card-text">{{ $value->nim }}</p>
-                            <p class="card-text">{{ $value->jurusan }}</p>
-                            <p class="card-text">{{ $value->semester }}</p>
+                            <p class="card-text">Jurusan {{ $value->jurusan }}</p>
+                            <p class="card-text">Semester {{ $value->semester }}</p>
                         </div>
                     </div>
                 </div>

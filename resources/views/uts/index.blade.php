@@ -16,8 +16,8 @@
         <h1>Identitas Kelompok</h1>
     </div>
     <div class="container">
-        <div class="row">
-            <div class="col">
+        <div class="row justify-content-center">
+            <div class="col mb-2">
                 <div class="card" style="width: 18rem;">
                     <div class="card-body">
                         <h5 class="card-title">Muhammad Firza Khoirudin </h5>
@@ -27,7 +27,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col mb-2">
                 <div class="card" style="width: 18rem;">
                     <div class="card-body">
                         <h5 class="card-title">Bobby Hendrawan</h5>
@@ -37,7 +37,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col mb-2">
                 <div class="card" style="width: 18rem;">
                     <div class="card-body">
                         <h5 class="card-title">Muhammad Fadel Mas'an</h5>
@@ -47,7 +47,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col mb-2">
                 <div class="card" style="width: 18rem;">
                     <div class="card-body">
                         <h5 class="card-title">Anggi Satria Wiranata</h5>
